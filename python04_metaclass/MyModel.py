@@ -49,3 +49,4 @@ class Model(dict, metaclass=ModelMetaclass):
         sql = 'insert into %s (%s) values (%s)' % (self.__table__, ','.join(fields), ','.join(params))
         print('SQL: %s' % sql)
         print('ARGS: %s' % str(args))
+    

@@ -20,3 +20,4 @@ u.save()
 # u.id
 # u['id']
 u = dict(id=1,password="aaa")
+# u = User.find(1)

@@ -1,0 +1,1 @@
+from python04_metaclass.MyModel import Model
